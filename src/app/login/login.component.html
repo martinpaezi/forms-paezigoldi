@@ -21,6 +21,8 @@
           <input type="password" class="form-control" id="password" formControlName="password">
         </div>
         <button type="submit" class="btn btn-submit btn-block">Submit</button>
+        <pre>{{loginForm.status}}</pre>
+        <pre>{{loginForm.value | json}}</pre>
       </form>
     </div>
   </div>
